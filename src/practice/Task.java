@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class Task implements Comparable<Task> {
 
 	// 日付(LocalDate)とタスク内容(String)を持つクラス作成
-	protected LocalDate d;
-	protected String move;
+	private LocalDate d;
+	private String move;
 
 	// Taskクラスのコンストラクタ
 	public Task(LocalDate d, String move) {
